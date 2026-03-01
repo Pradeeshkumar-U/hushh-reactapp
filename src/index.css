@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-grey: #f1f5f9;
+  --color-hushh-black: #0f172a;
+  --color-hushh-grey: #e2e8f0;
+  --color-hushh-lime: #84cc16;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-blue-grey);
+    color: var(--color-hushh-black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
